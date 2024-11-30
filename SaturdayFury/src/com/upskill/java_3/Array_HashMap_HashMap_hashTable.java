@@ -1,0 +1,66 @@
+package com.upskill.java_3;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Hashtable;
+
+public class Array_HashMap_HashMap_hashTable {
+
+	public static void main(String[] args) {
+		// Array Store multiple data using index
+
+		int age = 28; // Variable
+		System.out.println(age);
+		int[] ageFury = new int[] { 25, 28, 30, 32, 21 }; // Array
+		System.out.println(ageFury[0]);
+
+		String[] nameFury = new String[] { "Goutam", "Sagor", "Abdul", "Chen", "Alex" };
+
+		System.out.println("Student Name: " + nameFury[0]);
+		System.out.println("Total Length of nameFury: " + nameFury.length);
+
+		// Multidimensional Array
+		int[][] ageFury2D = new int[][] { { 25, 28, 30, 32, 21 }, { 24, 34, 32 } };
+		System.out.println("Student age: " + ageFury2D[1][1]);
+
+		//		HashMap to store multiple data using key-value pair; Implementation of Map Interface (from Java Utilities)
+		HashMap<String, Integer> Student = new HashMap<String, Integer>();
+		Student.put("Protik", 28);
+		Student.put("Tahmina", 24);
+		Student.put("Zia", 21);
+		Student.put("Roton", 31);
+		
+		System.out.println("HasMap Student Age: " + Student.get("Zia"));
+		
+
+		// Capital/Country (ToDo: Homework)
+		
+		
+		// Hashtable stores multiple data using key-value pair; no duplicates (both key and value), also synchronized (only one thread can be modified)
+		
+		Hashtable<String, String> Region = new Hashtable<String, String>();
+		
+		Region.put("Bangladesh", "Asia");
+		Region.put("Bolivia", "South America");
+		
+		
+		System.out.println("Country Region: " + Region.get("Bolivia"));
+		
+		
+		
+		
+		// HashSet stores unordered collection containing unique value; Implementation of set interface
+		
+		HashSet<String> car = new HashSet<>();
+		car.add("BMW");
+		car.add("Toyota");
+		car.add("Tesla");
+		car.add("Audi");
+		car.add("Ford");
+		car.add("Audi");
+		
+		System.out.println("Car: " + car);
+		
+	}
+
+}

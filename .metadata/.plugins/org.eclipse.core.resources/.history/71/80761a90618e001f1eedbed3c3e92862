@@ -1,0 +1,28 @@
+package com.upskill.java_1;
+
+public class MethodType {
+	
+/*
+	 1. Void method 
+	 2. Static Method 
+	 3. Return type Method
+*/
+	public static int hourlyIncome = 65;
+	
+
+	public static void main(String[] args) {
+		MethodType myMethod = new MethodType();
+		myMethod.annualIncomeVoid();
+
+	}
+	
+	
+	// void method	
+	public void annualIncomeVoid() {
+		int calculateAnualIncome = hourlyIncome*1824;
+		
+		System.out.println("My Annual Income = " + calculateAnualIncome);		
+	}
+	
+
+}

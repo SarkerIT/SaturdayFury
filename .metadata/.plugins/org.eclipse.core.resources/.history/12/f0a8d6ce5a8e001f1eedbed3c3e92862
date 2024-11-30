@@ -1,0 +1,23 @@
+package com.upskill.java_1;
+
+public class Variables {
+
+	// variable in java
+
+	// Instance OR global variable - variables declared inside a class but outside a
+	// method
+	// Static variable - variables belong to a class and donot require creating an
+	// object
+	// local variable - variable declared inside a method
+	// method parameter - variables used as method parameter
+
+	public String country = "USA";
+	
+	
+	public void ny() {
+		String city = "NYC";
+		System.out.println(city, country);
+		
+	}
+
+}

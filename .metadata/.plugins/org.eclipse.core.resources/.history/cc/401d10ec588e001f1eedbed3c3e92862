@@ -1,0 +1,22 @@
+package accessModifiers;
+
+public class AccessModifier {
+	
+	
+	// private
+	
+	// protected
+	
+	// default
+	
+	public String name = "Goutam"; // public - any class can access 
+	
+	private int age = 26;          // private - Only same class can access
+	
+	protected int ssn = 1234567;   // protected - Classes in the same package and subclasses
+	
+		String Address = "Heritage Tower"; // default - classes in the same package can access
+	
+	
+
+}

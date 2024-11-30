@@ -1,0 +1,30 @@
+package com.upskill.java_1;
+
+public class SuperclassExample {
+	
+
+	// This is the public class, so file name must match.
+	    public void displayResult() {
+	        System.out.println("Printing from superclass");
+	    }
+
+
+}
+	class Subclass extends Superclass_SubclassExample {  // No 'public' keyword, it can exist in the same file.
+	    public void displayResult() {
+	        System.out.println("Displaying from subClass");
+	        super.displayResult();  // Call to superclass method
+	    }
+
+	    public static void main(String[] args) {
+	        Subclass obj = new Subclass();
+	        obj.displayResult();  // Invoke method in subclass
+	    }
+	}
+	
+
+
+	
+	
+
+

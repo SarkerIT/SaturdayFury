@@ -1,0 +1,13 @@
+package com.upskill.java_1;
+
+public class MethodType {
+
+	public static void main(String[] args) {
+	/*
+		 1. Void method 
+		 2. Static Method 
+		 3. Return type Method
+	*/
+	}
+
+}

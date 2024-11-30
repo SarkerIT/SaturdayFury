@@ -1,0 +1,18 @@
+package com.upskill.java_1;
+
+public class AccessModifiers {
+
+	public static void main(String[] args) {		
+		
+		myMethod();
+
+	}
+	
+	
+	// Public Access Modifier
+    public static void myMethod() {
+        // Accessible everywhere
+    	System.out.println("This is my PUBLIC  access modifier form the AccessModifiers Class!")
+    }
+
+}

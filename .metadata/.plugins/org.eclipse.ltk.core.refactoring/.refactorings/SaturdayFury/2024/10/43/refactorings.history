@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.upskill.assignment_6&apos; to &apos;com.upskill.java_6&apos;&#x0D;&#x0A;- Original project: &apos;SaturdayFury&apos;&#x0D;&#x0A;- Original element: &apos;SaturdayFury/src/com.upskill.assignment_6&apos;&#x0D;&#x0A;- Renamed element: &apos;SaturdayFury/src/com.upskill.java_6&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.upskill.assignment_6&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.upskill.assignment_6" name="com.upskill.java_6" qualified="false" references="true" stamp="1729950126590" textual="false" version="1.0"/>
+</session>

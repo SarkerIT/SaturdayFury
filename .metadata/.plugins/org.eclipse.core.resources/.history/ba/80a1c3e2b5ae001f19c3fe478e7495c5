@@ -1,0 +1,25 @@
+package com.upskill.java_1;
+
+//File name: SuperclassExample.java
+
+public class One {
+
+public static void main(String[] args) {
+     Subclass obj = new Subclass();
+	obj.displayResult();  // Invoke method in subclass
+}
+	
+	
+	
+	
+ public static  void displayResult() {
+     System.out.println("Printing from superclass");
+ }
+}
+
+class Subclass extends One {
+ public static void displayResult() {
+     System.out.println("Displaying from subClass");
+     displayResult();  // Call to superclass method
+ }
+}

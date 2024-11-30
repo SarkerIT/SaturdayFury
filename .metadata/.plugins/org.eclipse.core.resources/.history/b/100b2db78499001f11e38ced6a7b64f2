@@ -1,0 +1,31 @@
+package com.upskill.java_1;
+
+public class AccessModifiers {
+
+	public static void main(String[] args) {		
+		
+		myPublicMethod();
+
+	}
+	
+	
+	//--- Public Access Modifier ---//
+    public static void myPublicMethod() {
+        // Accessible everywhere
+    	// from ANY class of CURRENT package--> com.upskill.java_1
+    	// from ANY class of ANY PACKAGES OF current PROJECT (SaturdayFury)
+    	System.out.println("This is my PUBLIC access modifier form the AccessModifiers Class!");
+    }
+
+    
+    
+
+    public class myClassWithPrivateMethod {
+    	private  void myPrivateMethod() {  // The method myPrivateMethod cannot be declared static; static methods can only be declared in a static or top level type
+    		
+    		
+    		System.out.println("This is my PRIVATE method ");
+    	}
+    }
+}
+
