@@ -1,0 +1,32 @@
+package com.upskill.PracticeProblems;
+
+
+public class Swap_Strings {
+	
+	// Write a program to swap two string variables (Talen, Tech) 
+	// and display result on the screen.  
+
+	public static void main(String[] args) {
+		// Given string
+		String str = "Hello, World";
+		int length = str.length();
+		
+String word1 = "";
+String word2 = "";
+		
+		// run  a for loop
+		for(int i=0; i<length; i++) {
+			char car = str.charAt(i);
+			
+			if(car != ' ' ) {
+				word1 = word1+car;
+				System.out.println(word1);
+				}else {
+					break;
+					
+				}
+		}
+
+	}
+
+}
