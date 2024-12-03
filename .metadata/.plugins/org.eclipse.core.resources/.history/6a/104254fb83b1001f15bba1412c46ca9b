@@ -18,8 +18,8 @@ public class SwitchDay {
 //			switch(days) {
 //			case "Sat":
 			System.out.println(fl[1]);
-			float fl= fl[i];  // does not work
-		switch(fl) {   // does not work
+			float fl= fl[i];
+		switch(fl) {
 		case (0.01f):
 			System.out.println(0.01f);
 		}
