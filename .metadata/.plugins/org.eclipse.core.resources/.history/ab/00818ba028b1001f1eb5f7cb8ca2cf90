@@ -1,0 +1,25 @@
+package com.upskill.PracticeProblems;
+
+public class Swap_String_Easier_way {
+
+	
+	
+	public static void main(String[] args) {
+		// Given string
+		String str = "Hello, World";
+		
+		int strLength = str.length();
+		
+		boolean isSpace =false;
+		String word1= "";
+		String word2 ="";
+		
+		
+		for(int i=0; i<=strLength; i++)
+			if(charAt(i) !=" " && isSpace==false) {
+				
+			}
+		
+		
+	}
+}
