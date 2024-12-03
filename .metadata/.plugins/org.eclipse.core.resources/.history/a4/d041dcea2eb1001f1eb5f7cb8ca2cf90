@@ -36,7 +36,7 @@ public class Swap_String_Easier_way {
 			}			
 		}		
 		
-		System.out.println(word2 + ", " + word1); // add a comma in between the words.
+		System.out.println(word2 + ",  " + word1); // add a comma in between the words.
 		
 	}
 }
