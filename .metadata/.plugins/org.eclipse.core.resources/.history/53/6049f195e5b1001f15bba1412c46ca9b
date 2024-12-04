@@ -1,0 +1,47 @@
+package com.upskill.java_3;
+
+public class Encapsulation {
+
+	// Encapsulation is used to hide the data using setter and getter methods
+	
+	private String name = "GCS"; 				// Read & write
+	private int ssn = 1234567;					// Write only
+	private String userName = "gc_s";			// Read only
+	
+	
+	// Setter method - name 						//set the data, Write
+	public void setName(String value) {
+		name = value;
+	}
+	
+	// Getter method - name 						// get the data, Read
+	public String getName() {
+		return name;
+	}
+	
+	// Setter method - SSN 							//set the data, Write
+		public void setSSN(int value) {
+			ssn = value;
+		}
+	
+	// Getter method - userName 					// get the data, Read
+	public String userName() {
+		return userName;
+	}
+		
+	public static void main(String[] args) {
+		
+		Encapsulation obj = new Encapsulation();
+		System.out.println(obj.getName());
+		
+		obj.setName("JavaStudyClass");
+		System.out.println(obj.getName());
+		
+		System.out.println(obj.userName());
+		
+		// Set the SSN
+		obj.setSSN(12345670);
+		
+	}
+
+}

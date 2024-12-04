@@ -24,7 +24,7 @@ public class Encapsulation {
 			ssn = value;
 		}
 	
-	// Getter method - userName 					// get the data, Read only. Once you set, cannot be changed
+	// Getter method - userName 					// get the data, Read only
 	public String userName() {
 		return userName;
 	}

@@ -24,7 +24,7 @@ public class Encapsulation {
 			ssn = value;
 		}
 	
-	// Getter method - userName 					// get the data, Read only. Once you set, cannot be changed
+	// Getter method - userName 					// get the data, Read only
 	public String userName() {
 		return userName;
 	}
@@ -41,7 +41,7 @@ public class Encapsulation {
 		
 		// Set the SSN
 		obj.setSSN(12345670);						// Set 'ssn' (no getter to access it)
-//		System.out.println(obj.ssn);				// Trying to access 'ssn' directly (incorrect)
+		System.out.println(obj.ssn);				// Trying to access 'ssn' directly (incorrect)
 		
 	}
 
