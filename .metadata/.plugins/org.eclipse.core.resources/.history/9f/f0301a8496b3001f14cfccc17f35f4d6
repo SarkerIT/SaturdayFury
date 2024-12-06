@@ -1,0 +1,18 @@
+package com.upskill.java_1;
+
+public class Non_Access_Modifiers_Final_Static {
+
+	
+		String color="red";
+		final float pi = 3.14f;
+		static int door = 4;
+	
+	
+	
+	public static void main(String[] args) {
+		Non_Access_Modifiers_Final_Static obj = new Non_Access_Modifiers_Final_Static();
+		System.out.println(obj.color);
+		System.out.println(door);     // static, no need to create an object
+	}
+
+}

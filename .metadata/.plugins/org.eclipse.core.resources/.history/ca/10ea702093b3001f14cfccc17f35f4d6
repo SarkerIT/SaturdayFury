@@ -1,0 +1,10 @@
+package com.upskill.java_1;
+
+public class Non_Access_Modifiers_Final_Static {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

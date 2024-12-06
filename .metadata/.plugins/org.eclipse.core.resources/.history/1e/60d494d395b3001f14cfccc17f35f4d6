@@ -1,0 +1,17 @@
+package com.upskill.java_1;
+
+public class Non_Access_Modifiers_Final_Static {
+
+	public class Vehicle{
+		String color="red";
+//		final float pi = 3.14f;
+	}
+	
+	
+	public static void main(String[] args) {
+		Vehicle obj = new Vehicle();
+
+
+	}
+
+}
