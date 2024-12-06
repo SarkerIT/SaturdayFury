@@ -1,0 +1,15 @@
+package com.upskill.java_4;
+
+public class Constructor_Example_1 {
+	  int x;
+
+	  public Constructor_Example_1(int y) {
+	    x = y;
+	  }
+
+	  public static void main(String[] args) {
+		  Constructor_Example_1 myObj = new Constructor_Example_1(5);
+	    System.out.println(myObj.x);
+	  }
+	}
+
