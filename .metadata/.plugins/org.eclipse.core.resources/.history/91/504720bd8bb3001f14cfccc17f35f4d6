@@ -33,7 +33,7 @@ class Car extends Vehicle {
  // Constructor
  public Car(String brand, int doors) {
      super(brand);  // Call the constructor of the superclass (Vehicle)
-     this.doors = doors;     // Initializes the doors field specific to Car
+     this.doors = doors;     
  }
 
  // New method specific to Car
