@@ -1,0 +1,56 @@
+package com.upskill.java_1;
+
+
+//Superclass (Parent class)
+class Vehicle {
+ String brand;
+
+ // Constructor
+ public Vehicle(String brand) {
+     this.brand = brand;
+ }
+
+ // Method
+ public void startEngine() {
+     System.out.println("The engine is starting...");
+ }
+}
+
+//Subclass (Child class)
+class Car extends Vehicle {
+ int doors;
+
+ // Constructor
+ public Car(String brand, int doors) {
+     super(brand);  // Call the constructor of the superclass (Vehicle)
+     this.doors = doors;
+ }
+
+ // New method specific to Car
+ public void openDoors() {
+     System.out.println("Opening " + doors + " doors.");
+ }
+
+ // Overriding a method from the superclass
+ @Override
+ public void startEngine() {
+     System.out.println("The car engine is starting...");
+ }
+}
+
+
+// Separate Code Block form the above block;
+// We can make a separate file for the following code code block again
+public class Super_Sub_Class_Interactions  {
+ public static void main(String[] args) {
+     // Creating an object of the subclass (Car)
+     Car myCar = new Car("Toyota", 4);
+
+     // Calling methods from the superclass
+     myCar.startEngine();  // This will call the overridden method in Car
+
+     // Calling methods from the subclass
+     myCar.openDoors();  // This will call the method in Car
+ }
+}
+
