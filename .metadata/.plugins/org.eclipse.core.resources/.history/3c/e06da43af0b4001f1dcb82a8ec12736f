@@ -38,6 +38,3 @@ class Car extends Vehicle_Inheritance {
         this.modelName = modelName;
     }
 }
-
-
-// jus a comment
