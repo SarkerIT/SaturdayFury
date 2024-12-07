@@ -34,7 +34,7 @@ class Car extends Vehicle_Inheritance {
     protected String modelName;
 
     public Car(String brand, String modelName) {
-        super(brand);  // Calling the parent class constructor to set brand change
+        super(brand);  // Calling the parent class constructor to set brand
         this.modelName = modelName;
     }
 }
