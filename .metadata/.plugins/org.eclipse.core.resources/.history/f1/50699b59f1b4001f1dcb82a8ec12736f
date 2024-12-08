@@ -45,4 +45,3 @@ class Car_Inheritance extends Vehicle {
 																				// accessing modelName
 	}
 }
-// just a comment
