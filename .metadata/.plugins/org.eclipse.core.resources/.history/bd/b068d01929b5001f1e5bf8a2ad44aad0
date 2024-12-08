@@ -1,0 +1,15 @@
+package com.upskill.PracticeProblems;
+
+public class GitDemo {
+
+	public void gitDemo() {
+		System.out.println("Git");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		gitDemo();
+	}
+
+}
