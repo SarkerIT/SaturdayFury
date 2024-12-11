@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Hashtable;
 
-public class Array_HashMap_HashMap_hashTable {
+public class Array_HashMap_HashMap_HashTable {
 
 	public static void main(String[] args) {
 		// Array Store multiple data using index
