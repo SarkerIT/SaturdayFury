@@ -2,7 +2,7 @@ package com.upskill.assignment_2;
 
 //Write a java program to find the prime number from 1 to 100 and print them.
 
-public class Problem_6_ChatGPT_1 {
+public class Problem_6_ai_1 {
     public static void main(String[] args) {
         System.out.println("Prime numbers from 1 to 100:");
         for (int num = 1; num <= 100; num++) {

@@ -1,6 +1,6 @@
 package com.upskill.assignment_2;
 
-public class Problem_6_ChatGPT_2 {
+public class Problem_6_ai_2 {
     public static void main(String[] args) {
         int limit = 100; // Set the limit to 100
 

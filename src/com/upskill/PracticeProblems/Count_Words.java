@@ -9,8 +9,8 @@ public class Count_Words {
 		int countWords = words.split("\\s").length;
 		System.out.println(countWords);
 		
-		countWords2("Hello World!");
-		
+		// call the iterative method
+		countWords2("Hello World!");		
 	}	
 	
 	
@@ -19,7 +19,7 @@ public class Count_Words {
 		int countNum = 0;
 		String sentence = str;
 		
-		for(int i=0; i<sentence.length()-1; i++) {
+		for(int i=0; i<sentence.length(); i++) {
 			if(sentence.charAt(i)!=' ') {
 				continue;
 			}else {
