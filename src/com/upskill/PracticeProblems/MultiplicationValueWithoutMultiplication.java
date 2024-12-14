@@ -6,7 +6,7 @@ public class MultiplicationValueWithoutMultiplication {
 	
 	static int a = 9;
 	static int b = 9;
-	// need to print 4*5 = 45 without multiplication operation
+	// need to print 4*5 = 45; without multiplication operation
 	
 	static int sum =0;
 
