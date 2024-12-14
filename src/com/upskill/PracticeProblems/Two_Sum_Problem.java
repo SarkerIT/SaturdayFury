@@ -15,21 +15,20 @@ public class Two_Sum_Problem {
 		boolean isFound = false;
 
 		// for loop
-		for (int i = 0; i < arr.length-1; i++) {      // take the first number of the array
-			for (int j = 0; j < arr.length-1; j++) { // check it aganist all the other numbers
-				
+		for (int i = 0; i < arr.length - 1; i++) { // take the first number of the array
+			for (int j = 0; j < arr.length - 1; j++) { // check it aganist all the other numbers
+
 				int firstNum = arr[i];
 				int secondNum = arr[j + 1];
 				if (firstNum + secondNum == sum) {
 					isFound = true;
 					break;
-			}
+				}
 
 			}
 
 		}
-		
-		
+
 		System.out.println(isFound);
 	}
 

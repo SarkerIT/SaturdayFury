@@ -1,13 +1,16 @@
 package com.upskill.PracticeProblems;
 
-import java.util.ArrayList;
+// Find the Maximum difference between two ADJACENT values of an array
 
 public class MaxDifferenceValue_InAnArray {
 	
 	// given array
 	static int[] arr = {10, 4, 3, 2, 42, 78, 80, 90};
 
-	static ArrayList<Integer> newArr= new ArrayList<>();
+	
+	// create a new array
+	
+	static int[] arrNew = new int[arr.length-1];
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,20 +20,19 @@ public class MaxDifferenceValue_InAnArray {
 			int diff = arr[i]-arr[i+1];
 			
 			if (diff <0) diff = (-diff);
-			newArr.add(diff);
+			arrNew[i]=diff;
 		}	
 		
 		int max=0;
-		// iterate over the new array and find the max number
-		for(int i=0; i<newArr.size(); i++) {
-			System.out.println(newArr.get(i));
-
-			if(newArr.get(i)<newArr.get(i+1)) {
-				max = newArr.get(i+1);
-			} else {
-				max=max;
-			}
+		for(int i=0; i<arrNew.length-1; i++) {
+			if (arrNew[i]> arrNew[i+1]) {
+				max=arrNew[i];
+			}else {max=max;}
+			
 		}
+		
+		
+		// iterate over the new array and find the max number
 		System.out.println(max);
 	}
 
