@@ -32,7 +32,7 @@ public class ForEach {
 		System.out.println("-----------------");
 		
 		// enhanced for-each loop					//	the enhanced for loop, variable directly refers to each element in the array
-		for(int numbers : num) {	// read like - for numbers in (meaning :) num
+		for(int numbers : num) {					// read like - for numbers in (meaning :) num
 			System.out.print(numbers + " ");
 		}
 
